@@ -34,3 +34,71 @@ body {
     top: 0;
     left: 0;
 }
+
+.main_wrapper p {
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 300px;
+    z-index: 5;
+}
+
+.main_wrapper div ul {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    display: flex;
+    margin: 0 10px;
+}
+
+.main_wrapper div ul li {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin: 5px 3px;
+    padding: 1px 5px;
+}
+
+/* menu */
+.menu_div {
+    background: url(./img/blue-back.jpg);
+}
+
+.menu_div div {
+    margin: 0px auto;
+    color: white;
+    text-shadow: 2px 2px 3cqh rgb(34, 29, 29);
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_div div:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    background-color: rgb(71, 212, 71);
+}
+
+.event {
+    background-color: rgb(87, 75, 196);
+}
+
+.information {
+    background-color: rgb(236, 106, 0);
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
