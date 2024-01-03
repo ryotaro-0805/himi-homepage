@@ -12,7 +12,7 @@ body {
 }
 
 .main_wrapper h1 {
-    font-size: 5vw;
+    font-size: 10vw;
     font-weight: bold;
     color: rgb(196, 40, 40);
     text-shadow:
@@ -36,20 +36,21 @@ body {
 }
 
 .main_wrapper p {
-    font-size: 4vw;
+    font-size: 7vw;
     width: 100%;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 3px black;
     position: absolute;
-    top: 300px;
+    top: 400px;
     z-index: 5;
 }
 
 .main_wrapper div ul {
     color: white;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px;
+    right: 0;
     list-style: none;
     display: flex;
     margin: 0 10px;
@@ -64,11 +65,12 @@ body {
 
 /* menu */
 .menu_div {
+    padding: 70px 0;
     background: url(./img/blue-back.jpg);
 }
 
 .menu_div div {
-    margin: 0px auto;
+    margin: 30px auto;
     color: white;
     text-shadow: 2px 2px 3cqh rgb(34, 29, 29);
     width: 200px;
