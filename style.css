@@ -125,8 +125,6 @@ a {
 
 .menu_div div div {
     margin: 30px auto;
-    color: white;
-    text-shadow: 2px 2px 3cqh rgb(34, 29, 29);
     width: min(50vw, 300px);
     height: min(50vw, 300px);
     border-radius: 50% 50%;
@@ -141,6 +139,10 @@ a {
 
 .menu_div div div:hover {
     transform: scale(1.1);
+}
+
+.menu_div div div a {
+    color: white;
 }
 
 .content {
