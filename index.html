@@ -4,15 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>日見地域センター</title>
+    <title>日見地区コミュニティー連絡協議会のホームページ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
+
     <div class="main_wrapper">
-        <h1>日見地域センターの<br />ホームページ</h1>
-        <p>集まれ若人たち！</p>
-        <img src="./img/top-pic.jpg" alt="">
+        <!-- swiper -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/img/top-pic.jpg" alt="main-pic5" srcset=""></div>
+                <div class="swiper-slide"><img src="/img/top-pic-summer.jpg" alt="main-pic6" srcset=""></div>
+                <div class="swiper-slide"><img src="/img/top-pic-aba.jpg" alt="main-pic6" srcset=""></div>
+            </div>
+        </div>
+        <div class="main_text">
+            <!-- swiper ここまで-->
+            <h1>日見地区コミュニティー連絡協議会<br><span>集まれ若人たち</span></h1>
+            <p>長崎市の歴史と未来をつなぐ、一緒につくるコミュニティー</p>
+        </div>
         <div>
             <ul>
                 <li>活動内容</li>
@@ -22,17 +41,19 @@
         </div>
     </div>
     <div class="menu_div">
-        <div class="content">
-            <p>活動内容</p>
-            <p>私たちがどういった活動をしているかを記載しております。</p>
-        </div>
-        <div class="event">
-            <p>イベント情報</p>
-            <p>最新の情報をチェック！</p>
-        </div>
-        <div class="information">
-            <p>お知らせ</p>
-            <p>地域の方々に向けてのお知らせです。</p>
+        <div>
+            <div class="content">
+                <p>活動内容</p>
+                <p>私たちがどういった活動をしているかを記載しております。</p>
+            </div>
+            <div class="event">
+                <p>イベント情報</p>
+                <p>最新の情報をチェック！</p>
+            </div>
+            <div class="information">
+                <p>お知らせ</p>
+                <p>地域の方々に向けてのお知らせです。</p>
+            </div>
         </div>
     </div>
     <div class="picture">
@@ -58,7 +79,6 @@
         <p>This site is created by Ryotaro.</p>
     </footer>
     <script src="./script.js"></script>
-
 </body>
 
 </html>
